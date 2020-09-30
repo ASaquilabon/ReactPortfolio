@@ -6,10 +6,16 @@ const Portfolio = () => {
         <div>
             <h1>Portfolio</h1>
             <div class="portfolio">
-                <a href="https://asaquilabon.github.io/Random-Food-Button/"><img src="http://placehold.jp/851x315.png" /></a>
-                <a href="https://asaquilabon.github.io/SBU/index.html"><img src="https://via.placeholder.com/250" /></a>
-                <a href="http://urbanlastudio.com/"><img src="https://via.placeholder.com/250" /></a>
-                <a href="https://asaquilabon.github.io/JustinVillalobos/"><img src="https://via.placeholder.com/250" /></a>
+                <div class="featured-project">
+                    <a href="https://asaquilabon.github.io/Random-Food-Button/">
+                        <img src="http://placehold.jp/1050x480.png" />
+                    </a>
+                </div>
+                <div class="smaller-projects">
+                    <a href="https://asaquilabon.github.io/SBU/index.html"><img src="https://via.placeholder.com/250" /></a>
+                    <a href="http://urbanlastudio.com/"><img src="https://via.placeholder.com/250" /></a>
+                    <a href="https://asaquilabon.github.io/JustinVillalobos/"><img src="https://via.placeholder.com/250" /></a>
+                </div>
             </div>
         </div>
     )
