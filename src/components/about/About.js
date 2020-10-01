@@ -7,6 +7,7 @@ import headshot from '../../assets/images/Linkedin.png'
 const AboutContainer = styled.div`
     background: #202124;
     border-radius: 40px;
+    padding-top: 20px;
     -webkit-box-shadow: 4px 7px 24px 4px rgba(0,0,0,0.19);
     -moz-box-shadow: 4px 7px 24px 4px rgba(0,0,0,0.19);
     box-shadow: 4px 7px 24px 4px rgba(0,0,0,0.19);
@@ -16,9 +17,7 @@ const Columns = styled.div`
     flex-flow: nowrap;
     justify-content: space-around;
     align-items: center;
-    -webkit-box-shadow: 4px 7px 24px 4px rgba(0,0,0,0.19);
-    -moz-box-shadow: 4px 7px 24px 4px rgba(0,0,0,0.19);
-    box-shadow: 4px 7px 24px 4px rgba(0,0,0,0.19);
+    padding-bottom: 60px;
 `;
 const ImportantColor2 = styled.h2`
     opacity: 87%;
