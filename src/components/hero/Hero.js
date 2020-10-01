@@ -1,11 +1,16 @@
 import React from 'react';
-import logo from '../../logo.svg'
+import video from '../../assets/videos/archiesaquilabon.mp4'
+import Poster from '../../assets/images/AS-Banner.png'
+import './hero.css'
 
 const Hero = () => {
     return (
         <div>
         <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
+        <video autoPlay loop muted poster={Poster}>
+            <source src={video} type='video/mp4' />
+            <source src={video} type="video/ogg" /> 
+        </video>
         </header>
         </div>
     )
