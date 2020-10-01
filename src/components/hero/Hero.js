@@ -1,16 +1,19 @@
 import React from 'react';
 import video from '../../assets/videos/archiesaquilabon.mp4'
 import Poster from '../../assets/images/AS-Banner.png'
-import './hero.css'
+import styled from 'styled-components';
 
+const VideoWidth = styled.video`
+    width: 100%;
+`;
 const Hero = () => {
     return (
         <div>
         <header className="App-header">
-        <video autoPlay loop muted poster={Poster}>
+        <VideoWidth autoPlay loop muted poster={Poster}>
             <source src={video} type='video/mp4' />
             <source src={video} type="video/ogg" /> 
-        </video>
+        </VideoWidth>
         </header>
         </div>
     )
