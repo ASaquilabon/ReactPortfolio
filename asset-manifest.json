@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ReactPortfolio/static/css/main.50807974.chunk.css",
+    "main.js": "/ReactPortfolio/static/js/main.27731687.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.27731687.chunk.js.map",
+    "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.ad87311a.js",
+    "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.ad87311a.js.map",
+    "static/js/2.3f534646.chunk.js": "/ReactPortfolio/static/js/2.3f534646.chunk.js",
+    "static/js/2.3f534646.chunk.js.map": "/ReactPortfolio/static/js/2.3f534646.chunk.js.map",
+    "index.html": "/ReactPortfolio/index.html",
+    "precache-manifest.5dc17157aaca42b80e85e8b9fd62ac8b.js": "/ReactPortfolio/precache-manifest.5dc17157aaca42b80e85e8b9fd62ac8b.js",
+    "service-worker.js": "/ReactPortfolio/service-worker.js",
+    "static/css/main.50807974.chunk.css.map": "/ReactPortfolio/static/css/main.50807974.chunk.css.map",
+    "static/js/2.3f534646.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.3f534646.chunk.js.LICENSE.txt",
+    "static/media/AS-Banner.png": "/ReactPortfolio/static/media/AS-Banner.3dd37302.png",
+    "static/media/GiphyAPI.png": "/ReactPortfolio/static/media/GiphyAPI.ee485104.png",
+    "static/media/Linkedin.png": "/ReactPortfolio/static/media/Linkedin.da7d9f07.png",
+    "static/media/SBUBeats.png": "/ReactPortfolio/static/media/SBUBeats.34b38d9d.png",
+    "static/media/TrynaEat.png": "/ReactPortfolio/static/media/TrynaEat.b47d45bf.png",
+    "static/media/UrbanLAStudio.png": "/ReactPortfolio/static/media/UrbanLAStudio.8e8812b1.png",
+    "static/media/archiesaquilabon.mp4": "/ReactPortfolio/static/media/archiesaquilabon.cb5893ca.mp4",
+    "static/media/cartographer1.png": "/ReactPortfolio/static/media/cartographer1.b86ac8d9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad87311a.js",
+    "static/js/2.3f534646.chunk.js",
+    "static/css/main.50807974.chunk.css",
+    "static/js/main.27731687.chunk.js"
+  ]
+}
