@@ -11,7 +11,8 @@ import './portfolio.css'
 const HeaderText = styled.h1`
     padding-top: 40px;
     text-align: right;
-    font-size: 3em;
+    font-size: 3.5em;
+    padding-right: 8%;
 `;
 const ProjectTitle = styled.h2`
     color: #fff;

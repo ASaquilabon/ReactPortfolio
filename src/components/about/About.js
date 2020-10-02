@@ -16,6 +16,7 @@ const AboutContainer = styled.div`
 const HeaderText = styled.h1`
     text-align: right;
     font-size: 3em;
+    padding-right: 8%;
 `;
 const Line = styled.hr`
     width: 50%;
@@ -44,7 +45,22 @@ const Headshot = styled.img`
 const AboutText = styled.div`
     max-width: 40%;
 `;
+const ImgDiv = styled.div`
+    position: relative;
+    margin: 50px 0 0 50px;
+    display: inline-block;
 
+    &:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 85%;
+        border: 1px solid gray;
+        left: 58px;
+        top: -10px;
+        z-index: -1;
+    }
+`;
 const About = () => {
     return (
         <AboutContainer>
@@ -57,9 +73,9 @@ const About = () => {
             mass='2'
             >
             <Columns>  
-                <div class="headshot-img">
+                <ImgDiv>
                     <Headshot src={headshot} />
-                </div>
+                </ImgDiv>
                 <AboutText>
                     <ImportantColor2><strong><i>Hello World!</i></strong></ImportantColor2>
                     <ImportantColor2>My name is <i>Archie Saquilabon</i></ImportantColor2>
