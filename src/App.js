@@ -1,9 +1,8 @@
 import React from 'react';
-import './App.css';
 import Hero from './components/hero/Hero';
 import About from './components/about/About';
 import Portfolio from './components/portfolio/Portfolio';
-import WorkExp from './components/work-experience/WorkExperience';
+import Quilt from './assets/images/darkquilt.png';
 import styled, { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
@@ -12,10 +11,12 @@ const GlobalStyle = createGlobalStyle`
     }
     *, *:before, *:after {
       box-sizing: inherit;
+      color: #fff
     } 
+    
 `;
 const Background = styled.div`
-    background-color: #121212;
+    background-image: url(${Quilt});
     color: #fff;
 `;
 const Container = styled.div`
@@ -26,13 +27,12 @@ const Container = styled.div`
 function App() {
   return (
     <div className="App">
+      <Background>
       <GlobalStyle />
-        <Background>
           <Hero />
           <Container>
             <About />
             <Portfolio />
-            <WorkExp />
           </Container>
         </Background>
     </div>
