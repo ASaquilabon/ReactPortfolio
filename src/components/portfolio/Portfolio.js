@@ -10,12 +10,12 @@ import './portfolio.css'
 
 const HeaderText = styled.h1`
     padding-top: 40px;
-    text-align: right;
+    text-align: center;
     font-size: 3.5em;
-    padding-right: 8%;
 `;
 const ProjectTitle = styled.h2`
     color: #fff;
+    font-size: 3em;
 `;
 const UlText = styled.ul`
     list-style: none;

@@ -14,9 +14,8 @@ const AboutContainer = styled.div`
     box-shadow: 4px 7px 24px 4px rgba(0,0,0,0.19);
 `;
 const HeaderText = styled.h1`
-    text-align: right;
+    text-align: center;
     font-size: 3em;
-    padding-right: 8%;
 `;
 const Line = styled.hr`
     width: 50%;
